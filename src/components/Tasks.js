@@ -1,10 +1,11 @@
-
-
-const Tasks = () => {
-    return (
-        <div>
-            
-        </div>
+import task from './task'
+const Tasks = ({ tasks }) => {
+    return (  
+        <>
+            {tasks.map((task) => (
+                <h3 key={task.id}>{task.text}</h3>
+            ))}
+        </>
     )
 }
 
