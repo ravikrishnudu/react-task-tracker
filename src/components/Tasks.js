@@ -1,4 +1,4 @@
-import task from './task'
+import task from './Task'
 const Tasks = ({ tasks }) => {
     return (  
         <>
